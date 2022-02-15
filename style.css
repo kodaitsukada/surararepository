@@ -1,0 +1,37 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+.back{
+  /* 画面いっぱいに背景画像を貼り付ける */
+  background: url(https://www.pakutaso.com/shared/img/thumb/bitcoin111135PAR55180_TP_V.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  height:100%;
+  margin: 0;
+  padding: 0;
+  min-height:100vh;
+}
+.back::before{
+  /* 透過した黒を上から重ねるイメージ */
+  background-color: rgba(0,0,0,0.4);
+  /* 自由に位置指定 */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+
+
+.background-color{
+  height:140vh;/*見やすいように高さを取っています*/
+ background-color:#c0c0c0; 
+}
+
+.back2{
+  height:40vh;/*見やすいように高さを取っています*/
+ background-color:#f0ffff; 
+}
