@@ -39,19 +39,19 @@ body {
 .gnavi{
     display: flex;
     flex-wrap: wrap;/*スマホ表示折り返し用なのでPCのみなら不要*/
-    margin:0 0 50px 0;
+    margin:0 0 1px 0;
     list-style: none;
 }
 
 .gnavi li a{
     display: block;
-    padding:10px 30px;
+    padding:5px 15px;
     text-decoration: none;
     color: #fff;
 }
 
 .gnavi li{
-    margin-bottom:5px;
+    margin-bottom:1px;
 }
 
 /*==================================================
